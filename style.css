@@ -2,6 +2,9 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     line-height: 1;
+    background: rgb(1,184,227);
+    background: linear-gradient(90deg, rgba(1,184,227,1) 0%, rgba(19,21,59,0.7637429971988796) 0%);
+    color: white;
    
   }
   
@@ -9,7 +12,7 @@ body {
     background: transparent;
     border: none;
     resize: none;
-    color: #000000;
+    color: white;
     border-left: 1px solid black;
     padding: 10px;
   }
@@ -17,7 +20,7 @@ body {
   .jumbotron {
     text-align: center;
     background-color: transparent;
-    color: black;
+    color: white;
     border-radius: 0;
     border-bottom: 10px solid black;
   }
@@ -45,7 +48,7 @@ body {
   
   .past {
     background-color: #d3d3d3;
-    color: white;
+    color: black;
   }
   
   .present {
