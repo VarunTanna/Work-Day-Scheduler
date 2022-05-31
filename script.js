@@ -1,3 +1,17 @@
-// current date and time using moment.js
-$("currentDay").text(moment().format("MMMM Do YYYY, h:mm a"));
-var containerEl = $(".container");
+//moment.js 
+var date = moment().format("dddd,MMM Do YYYY");
+$("#currentDay").hmtl(date);
+
+// save button function v local storage
+
+
+
+
+
+// function for what the currrent time is
+
+
+
+
+
+// local storage
