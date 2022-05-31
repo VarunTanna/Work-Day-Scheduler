@@ -50,17 +50,7 @@ $("button").on("click", function (event) {
 });
 
 
-
-
-
-
-// function for what the currrent time is
-
-
-
-
-
-// local storage
+// local storage 
 for (i = 9; i <= 17; i++) {
 $("#hour"+i).children().eq(1).val(localStorage.getItem("hour" +i));
 
